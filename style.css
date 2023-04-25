@@ -1,0 +1,130 @@
+header{
+    background: hsla(0, 0%, 100%, 0)
+}
+.logo{
+ padding: 10px;
+
+}
+body{
+    margin: 0px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: url('фон.png');
+    background-size: cover;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+
+}
+h2{
+    display: flex;
+    font-size: 1.5em;
+    margin-block-start: 30px;
+    margin-block-end: 30px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    justify-content: center
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 60px;
+
+}
+header li a,header li{
+    padding: 2px;
+}
+
+.carts{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+}
+
+.subs{
+    display: block;
+    margin-left: 15%;
+}
+
+.card{
+    border: 3px solid rgba(0, 0, 0, 0.267);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    margin-top: 15px;
+    transition: .3s;
+    flex-direction: row-reverse;
+    box-shadow: 5px 10px 5px rgba(0,0,0,.6);
+    background: #f7f7f782;
+}
+
+aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 15px;
+    overflow: hidden;
+    background: blue;
+    transition: .3s
+}
+aside:hover {
+    width:150px;
+}
+.left{
+    margin-top: 20px;
+    padding: 10px;
+}
+.right{
+    margin-top: 20px;
+    padding: 10px
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 0px 9px 0px rgb(44, 44, 44);
+    cursor: pointer;
+}
+@media (min-width: 1921px) { 
+    header{
+        justify-content: center;
+    }
+ }
+ @media (max-width: 910px) { 
+    main{
+        width: 95%;
+    }
+ }
+li a,p a{
+    text-decoration: none;
+    color: #000;
+}
+.cart{
+    border: 3px solid rgba(0, 0, 0, 0.253);
+    border-radius: 13px;
+    padding: 20px;
+    transition: .3s;
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 30px;
+    box-shadow: 5px 10px 5px rgba(0,0,0,.6);
+}
+header li a{
+padding: 30px;
+}
+.subs{
+    margin: 2%;
+    display: flex;
+    flex-direction: column
+}
+.cardd{
+    margin: 3%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
